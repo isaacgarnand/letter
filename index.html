@@ -9,21 +9,32 @@
 </head>
 <body>
   <div class="container">
-  <div>
-  <form id="formOne">
-    <div class="form-group">
-      <label for="yourname">Whats your name?</label>
-      <input id="yourname" class="form-control" type="text">
+    <div>
+      <form id="formOne">
+        <div class="form-group">
+          <label for="yourname">Whats your name?</label>
+          <input id="yourname" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn">Add Your Name </button>
+      </form>
+
+      <div id="letter">
+        <p>Lorem ipsum,<span class="yourname"></span> dolor sit amet consectetur adipisicing elit. Omnis ea eum quo odio beatae, nemo placeat molestias atque minus, blanditiis architecto reiciendis accusantium doloribus cumque ipsa asperiores ipsum! Labore, eaque.</p>
+      </div> 
     </div>
-      <button type="submit" class="btn">Add Your Name </button>
-  </form>
+  </div>
 
-
-<div id="letter">
-  
-  <p>Lorem ipsum,<span class="yourname"></span> dolor sit amet consectetur adipisicing elit. Omnis ea eum quo odio beatae, nemo placeat molestias atque minus, blanditiis architecto reiciendis accusantium doloribus cumque ipsa asperiores ipsum! Labore, eaque.</p>
-</div> 
-</div>
-</div>
+  <div class="container">
+    <form id="formTwo">
+      <div class="form-group">
+        <label for="string">Type a string!</label>
+        <input id="string" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn-info">send your string</button>
+    </form>
+    <div id="reply">
+      <p class="string"></p>
+    </div>
+  </div>
 </body>
 </html>
